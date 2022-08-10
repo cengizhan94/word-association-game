@@ -41,8 +41,16 @@
 }
 
 .answer-display{
-    height: 50px;
+    justify-content: center;
+    height: 5px;
     display: flex;
     align-items: center;
     justify-items: center;
+}
+.ansnwer-display.correct{
+    color: rgb(211,211,117);
+
+}
+.answer-display.wrong{
+    color: rgb(211,134,117);
 }
