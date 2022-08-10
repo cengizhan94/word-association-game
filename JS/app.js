@@ -55,7 +55,7 @@ function populateQuestions(){
         questionButton.classList.add('question-button')
         questionButton.textContent = option
 
-        questionButton.addEventListener('click',() => checkAnswer(option,optionIndex +1, question.correct))
+        questionButton.addEventListener('click',() => checkAnswer(option,optionIndex +1, question.correct)) 
 
         questionButtons.append(questionButton)
        })
